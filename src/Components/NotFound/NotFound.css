@@ -1,0 +1,23 @@
+.error-body {
+    position: relative;
+    top: 20rem;
+	height: 100%;
+	width: 100%;
+}
+
+.error-body .error-text {
+    text-align: center;
+    padding-bottom: 300px;
+    color: black;
+}
+
+.error-body .error-text p {
+    font-weight: 600;
+}
+
+.error-body .error-text span {
+    content: '';
+    border-right: 1px solid black;
+    padding: 0.5em 0px;
+    margin: 0px 10px;
+}
