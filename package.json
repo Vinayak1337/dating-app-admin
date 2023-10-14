@@ -50,9 +50,9 @@
 		"video-react": "^0.14.1"
 	},
 	"scripts": {
-		"start": "react-scripts start",
+		"start": "react-scripts --openssl-legacy-provider start",
 		"dev": "serve -s build",
-		"build": "react-scripts build",
+		"build": "react-scripts --openssl-legacy-provider build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
 		"deploy-dev": "npm run build && npm run start",

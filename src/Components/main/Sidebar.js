@@ -57,11 +57,15 @@ function Sidebar({ adminLogo }) {
               </Link>
             </li>
             <li>
-              <Link to="/dashboard/" className="has-arrow">
+              <Link
+                to="/dashboard/"
+                className="has-arrow"
+                aria-expanded={false}
+              >
                 <img src="/assets/images/icons/cms-icon.png" alt="" />
                 <span>Commerce</span>
               </Link>
-              <ul className="sub-menu" aria-expanded={false}>
+              <ul className="sub-menu">
                 <li>
                   <a href="/comproducts">Products</a>
                 </li>
