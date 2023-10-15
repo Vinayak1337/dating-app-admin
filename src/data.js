@@ -5,7 +5,7 @@
 
 import { useEffect } from 'react';
 
-export const API = 'https://dating-app-server-0ro4.onrender.com';
+export const API = 'https://dating-app-server-gdjw.onrender.com';
 // export const API = 'http://localhost:5000';
 
 export const buildType = 'development';
