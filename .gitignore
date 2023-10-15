@@ -1,3 +1,6 @@
 node_modules
 build
 cloudinary.js
+
+# Local Netlify folder
+.netlify
